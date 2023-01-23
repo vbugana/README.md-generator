@@ -49,10 +49,11 @@ In Visual Studio:
 * Answer prompts provided by the generator
 
 ## Preview
+[demo.mp4](https://user-images.githubusercontent.com/images/previewREADMEgenerator.mp4)
 
-<video controls>
-<source src="./images/previewREADMEgenerator.mp4" type="video/mp4">
-</video>
+
+[projectDemo.webm](images/Untitled_%20Jan%2023,%202023%207_57%20PM.webm)
+
 
 ## Contributions
 Unapplicable
