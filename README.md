@@ -49,11 +49,7 @@ In Visual Studio:
 * Answer prompts provided by the generator
 
 ## Preview
-[demo.mp4](https://user-images.githubusercontent.com/images/previewREADMEgenerator.mp4)
-
-
-[projectDemo.webm](images/Untitled_%20Jan%2023,%202023%207_57%20PM.webm)
-
+[demo.mp4](https://user-images.githubusercontent.com/images/Untitled_%20Jan%2023,%202023%207_57%20PM.mov)
 
 ## Contributions
 Unapplicable
