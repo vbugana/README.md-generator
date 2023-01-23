@@ -49,7 +49,7 @@ In Visual Studio:
 * Answer prompts provided by the generator
 
 ## Preview
-[demo.mp4](https://user-images.githubusercontent.com/61995940/214174756-c439aa00-2dbb-47e4-908e-0ead3186fc3d.movv)
+[demo.mp4](https://user-images.githubusercontent.com/61995940/214174756-c439aa00-2dbb-47e4-908e-0ead3186fc3d.mov)
 
 ## Contributions
 Unapplicable
