@@ -41,11 +41,12 @@ To generate your own README.md file:
 * Navigate to the README Generator and git pull the latest repository to your local machine
 * Run npm install in order to install inquirer
 * Using your terminal, use the command node index.js to initialize the application
-* 
+  
 ## Usage
-In Visual Studio, right click index.js > Open in integrated terminal
-Type "node index.js" in your terminal and hit enter
-Answer prompts provided by the generator
+In Visual Studio:
+* Right click index.js > Open in integrated terminal
+* Type "node index.js" in your terminal and hit enter
+* Answer prompts provided by the generator
 
 ## Preview
 
@@ -56,5 +57,7 @@ Unapplicable
 Run the generator on your local machine for testing.
 
 ## License
-License: MIT
+License: MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 
