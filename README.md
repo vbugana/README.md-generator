@@ -49,7 +49,8 @@ In Visual Studio:
 * Answer prompts provided by the generator
 
 ## Preview
-<video>
+
+<video controls>
 <source src="./images/previewREADMEgenerator.mp4" type="video/mp4">
 </video>
 
