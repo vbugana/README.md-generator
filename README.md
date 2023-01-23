@@ -1,43 +1,60 @@
-# 444
-  ![GitHub license](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
-  ## Description
-  444
+# README.md-Generator
+## Description
+This application allows a user to quickly and easily create a README file by using a command-line application to generate one. 
+This allows the project creator to devote more time to working on the project.
+Through a command-line the application dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).  
+
+The application will be invoked by using the following command:
+
+```bash
+node index.js
+```
+
+## User Story
+
+* As a developer, I want a README generator so that I can quickly create a professional README for a new project
   
-  ## Table of Contents 
-* [Installation](#installation)
-* [Usage](#usage)
+## Acceptance Criteria
 
-* [License](#license)
+* Create a command-line application that accepts user input.
+  * When a user is prompted for information about the application repository then a high-quality, professional README.md is generated with:
+    * The title of my project 
+    * Sections entitled:
+      * Description 
+      * Table of Contents 
+      * Installation 
+      * Usage 
+      * License 
+      * Contributing 
+      * Tests 
+      * Questions
+    * When a user enters the project title then it is displayed as the title of the README
+    * When a user enters a description, installation instructions, usage information, contribution guidelines, and test instructions then this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+    * When a user chooses a license for their application from a list of options then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled **License** that explains which license the application is covered under
+    * When a user enters their GitHub username then this is added to the section of the README entitled Questions, with a link to their GitHub profile
+    * When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
+    * When a user clicks on the links in the **Table of Contents** then they are taken to the corresponding section of the README
 
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
 ## Installation
-To install necessary dependencies, run the following command:
-```
-npm i
-```
+
+To generate your own README.md file:
+* Navigate to the README Generator and git pull the latest repository to your local machine
+* Run npm install in order to install inquirer
+* Using your terminal, use the command node index.js to initialize the application
+  
 ## Usage
-* In Visual Studio, right click index.js > Open in integrated terminal
-* Type “node index.js” in your terminal and hit enter
+In Visual Studio:
+* Right click index.js > Open in integrated terminal
+* Type "node index.js" in your terminal and hit enter
 * Answer prompts provided by the generator
 
-## License
-    This project is licensed under the APACHE2.0 license.
-## Contributing
-1. Fork the repository to your personal Github. Forking is basically an easy way to make a duplicate of the repository to your own account.
-2. Now that you have forked the repository to your account, go to the repository in your account, then click on the clone button and hit the copy to clipboard icon.
-3. Now, open a terminal on your local machine and clone the forked repository by doing: git clone <copied url>
-4. Create a branch in git inside your local machine: git checkout -b <branch-name>
-5. Now you can fix bugs or do whatever you need to do in order to improve the code in the project. Follow the code style of the project, including indentation. If the project has tests run them! Write or adapt tests as needed. Add or change the documentation as needed. Remember to make sure the changes are applied only to the branch you created!
-6. Open Contributors.md in a text editor and add your name to it. Don’t add it at the beginning or the end of the file, add it anywhere in the middle of it. Now, save the file.
-7. Commit those changes by doing git commit -m "Added <your-name> to contributors list “-m” tells git that you are committing the changes with a message to tell people what the commit is about.
-8. Push those changes to the forked repository on Github via: git push origin <your-branch-name> replacing “<your-branch-name> with the name of the branch you created earlier.
-## Tests
-To run tests, run the following command:
-```
-npm test
-```
-## Questions
+## Preview
 
-For any questions or bugs, contact me at Github: [1](https://github.com/1/) or contact me directly at 1.
+## Contributions
+Unapplicable
+
+## Tests
+Run the generator on your local machine for testing.
+
+## License
+License: MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
