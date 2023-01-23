@@ -49,9 +49,9 @@ In Visual Studio:
 * Answer prompts provided by the generator
 
 ## Preview
-![Walk-through of the project](./images/previewREADMEgenerator.mp4)
-
-
+<video>
+<source src="./images/previewREADMEgenerator.mp4" type="video/mp4">
+</video>
 
 ## Contributions
 Unapplicable
